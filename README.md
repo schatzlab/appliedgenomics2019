@@ -17,10 +17,11 @@ We will study the leading computational and quantitative approaches for comparin
 - Access to a Linux Machine, and/or Install [VirtualBox](https://github.com/schatzlab/appliedgenomics2019/blob/master/assignments/virtualbox.md) (Unfortuantely, even Mac will not work correctly for some programs)
 
 ## Course Resources:
-- [Spring 2018 Course Materials](https://github.com/schatzlab/appliedgenomics2018)
 - [Syllabus and Policies](https://github.com/schatzlab/appliedgenomics2019/tree/master/policies)
 - [Piazza Discussion Board](https://piazza.com/jhu/spring2019/en601749/home)
+- [GradeScope](https://www.gradescope.com/courses/38893) Entry Code: 9PYYY5
 - [Journal Club](https://github.com/cdarby/genomicsjc)
+- [Spring 2018 Course Materials](https://github.com/schatzlab/appliedgenomics2018)
 
 
 ## Related Courses & Readings
