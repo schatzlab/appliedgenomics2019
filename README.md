@@ -58,9 +58,9 @@ We will study the leading computational and quantitative approaches for comparin
 |    | Mo 3/18 | *Spring Break!*
 |    | We 3/20 | *Spring Break!*
 |15. | Mo 3/25 | Functional Analysis 5: Single Cell Genomics | * [Ginkgo: Interactive analysis and assessment of single-cell copy-number variations (Garvin et al, 2015, Nature Methods)](http://www.nature.com/nmeth/journal/v12/n11/full/nmeth.3578.html) <br> 
-|16. | We 3/27 | Midterm Review
-|17. | Mo 4/1  | Midterm Exam | | In class Midterm
-|18. | We 4/3  | Midterm Discussion
+|16. | We 3/27 | Functional Analysis 6: Scalable methods for genomics | |
+|17. | Mo 4/1  | Midterm Review | | 
+|18. | We 4/3  | Midterm Exam | | In class exam
 |19. | Mo 4/8  | Human Evolution | * [An integrated map of genetic variation from 1,092 human genomes (1000 Genomes Consortium, 2012, Nature)](http://www.nature.com/nature/journal/v491/n7422/full/nature11632.html) <br> * [Analysis of protein-coding genetic variation in 60,706 humans (Let et al, 2016, Nature)](http://www.nature.com/nature/journal/v536/n7616/full/nature19057.html) <br> * [A Draft Sequence of the Neandertal Genome (Green et al. 2010, Science)](http://science.sciencemag.org/content/328/5979/710.full) <br> * [Excavating Neandertal and Denisovan DNA from the genomes of Melanesian individuals (Vernot et al. 2016. Science)](http://science.sciencemag.org/content/early/2016/03/16/science.aad9416.full) <br> * [Visualizing Data Using t-SNE](https://www.youtube.com/watch?v=RJVL80Gg3lA) |
 |20. | We 4/10 | Human Genetic Diseases | * [Genome-Wide Association Studies (Bush & Moore, 2012, PLOS Comp Bio)](https://doi.org/10.1371/journal.pcbi.1002822) <br> * [The contribution of de novo coding mutations to autism spectrum disorder (Iossifov et al, 2014, Nature)](https://www.nature.com/nature/journal/v515/n7526/full/nature13908.html)
 |21. | Mo 4/15 | Cancer Genomics | * [The Hallmarks of Cancer (Hanahan & Weinberg, 2000, Cell)](http://www.sciencedirect.com/science/article/pii/S0092867400816839) <br> * [Evolution of Cancer Genomes (Yates & Campbell, 2012, Nature Reviews Genetics)](http://www.nature.com/nrg/journal/v13/n11/full/nrg3317.html) <br> * [Comprehensive molecular portraits of human breast tumours (TCGA, 2012, Nature)](http://www.nature.com/nature/journal/v490/n7418/full/nature11412.html) | Preliminary Project Report
