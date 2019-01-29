@@ -1,6 +1,6 @@
 ## Assignment 1: Chromosome Structures
 Assignment Date: Wednesday, Jan 30, 2019 <br>
-Due Date: Thursday, Feb. 6, 2019 @ 11:59pm <br>
+Due Date: Wednesday, Feb. 6, 2019 @ 11:59pm <br>
 
 ### Assignment Overview
 
