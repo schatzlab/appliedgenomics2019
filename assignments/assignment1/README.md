@@ -41,7 +41,7 @@ Download the yeast genome from here: http://schatz-lab.org/appliedgenomics2019/a
 
 ### Hints
 
-- Many of the questions can be addressed with standard command line tools such as grep, wc, awk, sort, fold, etc
+- Many of the questions can be addressed with standard command line [tools](http://lh3lh3.users.sourceforge.net/biounix.shtml) such as grep, wc, awk, sort, fold, etc
 - You may wish to try out [datamash](https://www.gnu.org/software/datamash/)
 - You may find [samtools](http://www.htslib.org/) and especially `samtools faidx` helpful for indexing the fasta files
 - Plotting can be done in any language; R or Python are recommended; Excel is okay but ugly :-P
