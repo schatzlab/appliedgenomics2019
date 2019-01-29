@@ -1,5 +1,5 @@
 ## Development Environment
-The standard development environment for this course is Ubuntu 17.10 Artful.  We have created a packaged version of this that you will need to import as an "appliance" through VirtualBox (instructions below). 
+The standard development environment for this course is Ubuntu  18.10 Cosmic Cuttlefish.  We have created a packaged version of this that you will need to import as an "appliance" through VirtualBox (instructions below). 
  
 In order to install and use our environment follow these steps on your laptop:
 
@@ -7,12 +7,10 @@ In order to install and use our environment follow these steps on your laptop:
 VirtualBox is software that allows you to create and work on virtual devices as separate instances within your machine. You can download it here: https://www.virtualbox.org/. Note you may need to set special permissions to allow it to load.
 
  
-### 2. Download the 64-bit Ubuntu 17.10 Artful Appliance
-Make sure to download the 64 bit version! (large file, so expect it to take a while): https://www.osboxes.org/ubuntu/ (1GB)
+### 2. Download the 64-bit Ubuntu 18.10 Cosmic Cuttlefish
+Make sure to download the 64 bit version! (large file, so expect it to take a while): https://www.osboxes.org/ubuntu/ (1.7GB)
 
-After downloading, decompress the archive "Ubuntu_17.10-VB-64bit.7z" to create a file called "Ubuntu 17.10 Artful (64bit).vdi"
-
-On mac, you will need to unpack the .7z archive using [The Unarchiver](https://theunarchiver.com/).
+After downloading, decompress the archive. On mac, you will need to unpack the .7z archive using [The Unarchiver](https://theunarchiver.com/).
 
 After extracting, move the Ubuntu image file to a new directory where you will want to keep it this semester.
 
@@ -21,13 +19,13 @@ After extracting, move the Ubuntu image file to a new directory where you will w
 From within VirutalBox, click "New" to create a new virtual machine.
 
 Then (1) Name your Virtual Machine and Select the Operating System as 64 bit Ubuntu <br>
-![Name](http://schatz-lab.org/appliedgenomics2018/assignments/virtualbox/NameVirtualMachine.png)
+![Name](http://schatz-lab.org/appliedgenomics2019/assignments/virtualbox/NameVirtualMachine.png)
 
 (2) Set the memory size to 4GB (or as much RAM as is available)<br>
-![Memory](http://schatz-lab.org/appliedgenomics2018/assignments/virtualbox/MemorySize.png)
+![Memory](http://schatz-lab.org/appliedgenomics2019/assignments/virtualbox/MemorySize.png)
 
 (3) Select the Ubuntu image as your virtual hard disk<br>
-![HardDrive](http://schatz-lab.org/appliedgenomics2018/assignments/virtualbox/HardDisk.png)
+![HardDrive](http://schatz-lab.org/appliedgenomics2019/assignments/virtualbox/HardDisk.png)
 
 ### 4. Launch the new virtual machine
 When the install finishes, you will have a virtual machine called "Genomics" showing in the left menu of your VirtualBox device manager.  Double-click on this virtual machine to start it up (or single-click and then hit the "start" icon).  If you get an error message, read the details and follow the instructions to update as necessary.  (For example, you might have to install the Oracle VM Extension Pack from https://www.virtualbox.org/wiki/Downloads to get the USB controller to work.)
@@ -35,7 +33,7 @@ When the install finishes, you will have a virtual machine called "Genomics" sho
 ### 5. Log into your new Ubuntu virtual machine
 The default username is "osboxes.org" and the default password is "osboxes.org"; feel free to create a new username or change the password
 
-![InitialDesktop](http://schatz-lab.org/appliedgenomics2018/assignments/virtualbox/InitialDesktop.png)
+![InitialDesktop](http://schatz-lab.org/appliedgenomics2019/assignments/virtualbox/InitialDesktop.png)
 
 ### 6. Explore your new machine-in-a-machine
 
