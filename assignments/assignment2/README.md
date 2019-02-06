@@ -107,7 +107,7 @@ $ jellyfish histo mer_counts.jf > reads.histo
 
 GenomeScope is a web-based tool so there is nothing to install. Hooray! Just make sure to use the `-C` when running jellyfish count so that the reads are correctly processed.
 
-####  [Spades](http://cab.spbu.ru/software/spades/2) - Short Read Assembler. Note: Only works under linux
+####  [Spades](http://cab.spbu.ru/software/spades/) - Short Read Assembler. 
 
 Normally spades would try several values of k and merge the results together, but here we will force it to just use k=31 to save time. The assembly
 should take about 30 minutes to 1 hour.
