@@ -1,4 +1,4 @@
-## Assignment 3: Genome Assembly, and the BWT
+## Assignment 3: Coverage, Genome Assembly, and the BWT
 Assignment Date: Wednesday, Feb. 13, 2019 <br>
 Due Date: Thursday, Feb. 20, 2019 @ 11:59pm <br>
 
