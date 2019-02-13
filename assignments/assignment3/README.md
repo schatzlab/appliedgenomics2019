@@ -1,6 +1,6 @@
 ## Assignment 3: Coverage, Genome Assembly, and the BWT
-Assignment Date: Wednesday, Feb. 13, 2019 <br>
-Due Date: Thursday, Feb. 20, 2019 @ 11:59pm <br>
+Assignment Date: Monday, Feb. 18, 2019 <br>
+Due Date: Monday, Feb. 25, 2019 @ 11:59pm <br>
 
 
 ### Question 1. Coverage simulator [10 pts]
