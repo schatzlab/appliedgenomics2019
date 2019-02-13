@@ -106,7 +106,7 @@ Hint: use your sourcecode from Q3 to debug Q4. Also start with simple strings li
 ### Packaging
 
 The solutions to the above questions should be submitted as a single PDF document that includes your name, email address, and 
-all relevant figures (as needed). Make sure to clearly label each of the subproblems and give the exact commands you used for 
+all relevant figures (as needed). Make sure to clearly label each of the subproblems and **give the exact commands** you used for 
 solving the question. Submit your solutions by uploading the PDF to [GradeScope](http://www.gradescope.com/). 
 
 If you submit after this time, you will start to use up your late days. Remember, you are only allowed 4 late days for the entire semester!
