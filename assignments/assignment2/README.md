@@ -109,8 +109,7 @@ GenomeScope is a web-based tool so there is nothing to install. Hooray! Just mak
 
 ####  [Spades](http://cab.spbu.ru/software/spades/) - Short Read Assembler. 
 
-Normally spades would try several values of k and merge the results together, but here we will force it to just use k=31 to save time. The assembly
-should take about 30 minutes to 1 hour.
+Normally spades would try several values of k and merge the results together, but here we will force it to just use k=31 to save time. The assembly should take a few minutes.
 
 ```
 $ spades.py --pe1-1 frag180.1.fq --pe1-2 frag180.2.fq --mp1-1 jump2k.1.fq --mp1-2 jump2k.2.fq -o asm -t 4 -k 31
@@ -123,6 +122,8 @@ $ dnadiff /path/to/ref.fa /path/to/qry.fa
 $ nucmer /path/to/ref.fa /path/to/qry.fa
 $ show-coords out.delta
 ```
+
+**WARNING: nucmer and related tools do not like it if/when you have spaces or special characters ('@') in the path to the binaries***
 
 #### [SAMTools](http://www.htslib.org/) - Extract part of a genome sequence using 'samtools faidx' (this will extract from contig_id bases 1234 through 5678)
 
