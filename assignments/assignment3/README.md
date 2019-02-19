@@ -16,7 +16,7 @@ Due Date: Monday, Feb. 25, 2019 @ 11:59pm <br>
 
 
 ### Question 2. de Bruijn Graph construction [10 pts]
-- Q1a. Draw (by hand or by code) the de Bruijn graph for the following reads using k=3 (assume all reads are from the forward strand, no sequencing errors, complete coverage of the genome)
+- Q2a. Draw (by hand or by code) the de Bruijn graph for the following reads using k=3 (assume all reads are from the forward strand, no sequencing errors, complete coverage of the genome)
 
 ```
 ATTC
@@ -37,7 +37,7 @@ TTGA
 - Q2b. Assume that the maximum number of occurrences of any 3-mer in the actual genome is 3 using the k-mers from Q1a. Write one possible genome sequence
 
 
-- Q2c. What is the longest repeat? 
+- Q2c. What is the longest repeat? (use the same assumptions as Q2b)
 
 
 ### Question 3. BWT Encoding [10 pts]
