@@ -2,7 +2,7 @@
 Assignment Date: Monday, Feb. 25, 2018  
 Due Date: Monday, March 4, 2018 @ 11:59pm  
 
-### Assignment Overview
+## Assignment Overview
 
 In this assignment, you will consider the algorithms and statistics to align reads to a reference genome to call SNPs and short indels. You will also perform an experiment to empirically determine the "mappability" of a genomic region. Finally, you will investigate some empirical behavior of the binomial test for heterozygous variant calling. As a reminder, any questions about the assignment should be posted to [Piazza](https://piazza.com/jhu/spring2019/en601749/home). Don't forget to read the **Resources** section at the bottom of the page!
 
@@ -76,7 +76,17 @@ For the region chr22:21000000-22000000 of the reference sequence for chromosome 
 - 4b. What asymptote does the plot seem to approach? Why is this?
 
 
-### Resources
+## Packaging
+
+The solutions to the above questions should be submitted as a single PDF document that includes your name, email address, and 
+all relevant figures (as needed). Make sure to clearly label each of the subproblems and **give the exact commands** you used for 
+solving the question. Submit your solutions by uploading the PDF to [GradeScope](http://www.gradescope.com/). 
+
+If you submit after this time, you will start to use up your late days. Remember, you are only allowed 4 late days for the entire semester!
+
+
+
+## Resources
 
 #### [FreeBayes](https://github.com/ekg/freebayes) - Small Variant Identification
 
