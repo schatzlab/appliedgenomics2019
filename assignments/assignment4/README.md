@@ -7,22 +7,24 @@ Due Date: Monday, March 4, 2018 @ 11:59pm
 In this assignment, you will consider the algorithms and statistics to align reads to a reference genome to call SNPs and short indels. You will also perform an experiment to empirically determine the "mappability" of a genomic region. Finally, you will investigate some empirical behavior of the binomial test for heterozygous variant calling. As a reminder, any questions about the assignment should be posted to [Piazza](https://piazza.com/jhu/spring2019/en601749/home). Don't forget to read the **Resources** section at the bottom of the page!
 
 
-### Question 1. Dynamic Programming [10 pts]
+### Question 1. Dynamic Programming [10 pts + 5pts]
 
 - 1a. Compute the edit distance of (a portion of) the human hemoglobin alpha and beta subunits, showing the dynamic programming matrix and the aligned sequences. Assume a fixed unit cost to
   substitute one amino acid for another and a unit cost for an insertion or deletion. You are allowed to use the language of your choice, including spreadsheets (Excel, Google sheets, etc)
 
-Alpha: 	EALERMFLSFPTTKTYFPHFDLSHGSAQVK
-Beta: 	EALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVK
+```
+    Alpha: 	EALERMFLSFPTTKTYFPHFDLSHGSAQVK
+    Beta: 	EALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVK
+```
 
-- 1b. 5pth BONUS: Notice that the edit distance of GATTTACA and GATACA is 2, but there are multiple possible optimal alignments:
+- 1b. 5pt BONUS: Notice that the edit distance of GATTTACA and GATACA is 2, but there are multiple possible optimal alignments
 
 ```
     GATTTACA			GATTTACA			GATTTACA
     GAT--ACA			GA-T-ACA			GA--TACA
 ```
 
-Print 5 optimal alignments between the alpha and beta sequences. If there are more than 5, just print the first 5 you find, although make sure they all have the same minimal edit distance. Hint: Instead of just following the pointers while backtracking, write a recursive depth first search to explore all the possible optimal alignments. The recursion should branch whenever there is a tie in the dynamic programming matrix. 
+Print 5 optimal alignments between the alpha and beta sequences. If there are more than 5, just print the first 5 you find, although make sure they all have the same minimal edit distance. Hint: Instead of just following the pointers while backtracking, write a recursive depth first search to explore all the possible optimal alignments. The recursion should branch whenever there is a tie in the dynamic programming matrix.
 
 
 ### Question 2. Small Variant Analysis [10 pts]
