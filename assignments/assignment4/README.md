@@ -9,8 +9,7 @@ In this assignment, you will consider the algorithms and statistics to align rea
 
 ### Question 1. Dynamic Programming [10 pts + 5pts]
 
-- 1a. Compute the edit distance of (a portion of) the human hemoglobin alpha and beta subunits, showing the dynamic programming matrix and the aligned sequences. Assume a fixed unit cost to
-  substitute one amino acid for another and a unit cost for an insertion or deletion. You are allowed to use the language of your choice, including spreadsheets (Excel, Google sheets, etc)
+- 1a. Compute the edit distance of (a portion of) the human hemoglobin alpha and beta subunits, showing the dynamic programming matrix and the aligned sequences. Assume a fixed unit cost to substitute one amino acid for another and a unit cost for an insertion or deletion. You are allowed to use the language of your choice, including spreadsheets (Excel, Google sheets, etc)
 
 ```
     Alpha: 	EALERMFLSFPTTKTYFPHFDLSHGSAQVK
@@ -38,13 +37,13 @@ Download the read set from here:
 For this question, you may find this tutorial helpful:  
 [http://clavius.bc.edu/~erik/CSHL-advanced-sequencing/freebayes-tutorial.html](http://clavius.bc.edu/~erik/CSHL-advanced-sequencing/freebayes-tutorial.html)
 
-- 2a. Using bowtie2, how many reads align to the reference? How many reads did not align? How many aligned reads had a mate that did not align (AKA singletons)? Count each read in a pair separately.  
+- 2a. Using bowtie2, how many reads align to the chr22 reference? How many reads did not align? How many aligned reads had a mate that did not align (AKA singletons)? Count each read in a pair separately.  
 [Hint: Build the index using `bowtie2-build`, align reads using `bowtie2`, analyze with `samtools flagstat`.]
 
 - 2b. How many reads are mapped to the reverse strand? Count each read in a pair separately.   
 [Hint: Find out what SAM flags mean [here](https://broadinstitute.github.io/picard/explain-flags.html) and use samtools view.]
 
-- 2c. How many high-quality (QUAL > 20) single nucleotide and indel variants does the sample have? Of the high-quality SNPs, what is the transition / transversion ratio? Of the indels, how many are insertions and how many are deletions?  
+- 2c. How many high-quality (QUAL > 20) single nucleotide and indel variants does the sample have? Of the indels, how many are insertions and how many are deletions?  
 [Hint:  Identify variants using `freebayes` - sort the SAM file first. Filter using `bcftools filter`, and summarize using `bcftools stats`.]
 
 - 2d. Does the sample have any nonsense or missense mutations?  
@@ -57,16 +56,14 @@ For the region chr22:21000000-22000000 of the reference sequence for chromosome 
 [Hint: On the command line or in a script, load the sequence once and extract substrings in a loop.]
 
 - 3a. How many reads align more than one time to the reference? How many reads did not align?
+[Hint: make a fasta file containing just chr22:21000000-22000000 and then extract every substring of length 35]
 
 - 3b. How many reads align correctly? Consider a read aligned correctly if the left end of the alignment is within 5bp of the true location.  
 [Hint: Investigate the [SAM file format specification](https://samtools.github.io/hts-specs/SAMv1.pdf).]
 
 - 3c. For 1000bp nonoverlapping windows, plot the average mapping quality of the reads that mapped to this location, regardless of correctness. On the plot, the x-axis is starting coordinate of the bin and y-axis is the value.
 
-- 3d. For 1000bp nonoverlapping windows, plot the fraction of reads that *belonged* there that were *correct*. On the plot, the x-axis is starting coordinate of the bin and y-axis is the
-  fraction
-
-- 3e. What do you observe about how well reads map within this region of chromosome 22? Look at the UCSC Genome Browser [umap24Quantitative](https://genome.ucsc.edu/cgi-bin/hgTrackUi?g=umap) "mappability" track in this region, and qualitatively compare the results from your plot to the track.  
+- 3d. For 1000bp nonoverlapping windows, plot the fraction of reads that *belonged* there that were *correct*. On the plot, the x-axis is starting coordinate of the bin and y-axis is the fraction
 
 
 ### Question 4. Binomial Distribution [10 pts]
