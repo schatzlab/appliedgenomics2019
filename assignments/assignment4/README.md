@@ -46,9 +46,6 @@ For this question, you may find this tutorial helpful:
 - 2c. How many high-quality (QUAL > 20) single nucleotide and indel variants does the sample have? Of the indels, how many are insertions and how many are deletions?  
 [Hint:  Identify variants using `freebayes` - sort the SAM file first. Filter using `bcftools filter`, and summarize using `bcftools stats`.]
 
-- 2d. Does the sample have any nonsense or missense mutations?  
-[Hint: try the [Variant Effect Predictor](http://useast.ensembl.org/Tools/VEP) using the `Gencode basic transcripts`]
-
 
 ### Question 3. Read Mapping Uncertainty [10 pts]
 
@@ -109,8 +106,4 @@ bowtie2 -x chr22 -1 sample/pair.1.fq -2 sample/pair.2.fq > sample.sam
 ```
 
 While running alignments, if you get an error `Warning: Exhausted best-first chunk memory for read XXXX; skipping read` increase the command-line parameter `--chunkmbs`.
-
-#### [Variant Effect Predictor](http://useast.ensembl.org/Tools/VEP) - Variant Interpretation
-
-Nothing to install, just upload the VCF
 
