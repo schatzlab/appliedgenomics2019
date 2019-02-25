@@ -16,7 +16,7 @@ In this assignment, you will consider the algorithms and statistics to align rea
     Beta: 	EALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVK
 ```
 
-- 1b. 5pt BONUS: Notice that the edit distance of GATTTACA and GATACA is 2, but there are multiple possible optimal alignments
+- 1b. **5pt BONUS**: Notice that the edit distance of GATTTACA and GATACA is 2, but there are multiple possible optimal alignments
 
 ```
     GATTTACA			GATTTACA			GATTTACA
