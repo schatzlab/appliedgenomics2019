@@ -63,12 +63,12 @@ For the region chr22:21000000-22000000 of the reference sequence for chromosome 
 
 - 3c. For 1000bp nonoverlapping windows, plot the average mapping quality of the reads that mapped to this location, regardless of correctness. On the plot, the x-axis is starting coordinate of the bin and y-axis is the value.
 
-- 3d. For 1000bp nonoverlapping windows, plot the fraction of reads that *belonged* there that were *correct*. On the plot, the x-axis is starting coordinate of the bin and y-axis is the fraction
+- 3d. For 1000bp nonoverlapping windows, plot the fraction of reads that *belonged* there that were *correct*. On the plot, the x-axis is starting coordinate of the bin and y-axis is the fraction. How does this compare to the plot in 3c?
 
 
 ### Question 4. Binomial Distribution [10 pts]
 
-- 4a. For coverage n = 10 to 200, calculate the maximum number of minor allele reads (round down) that would make your one-sided binomial test reject the null hypothesis p=0.5 at 0.05 significance. Plot coverage on the x-axis and (number of reads)/(coverage) on the y-axis.
+- 4a. For coverage n = 10 to 200, calculate the maximum number of minor allele reads (round down) that would make your one-sided binomial test reject the null hypothesis p=0.5 at 0.05 significance. Plot coverage on the x-axis and (number of reads)/(coverage) on the y-axis. Note this is the minimum number of reads that are necessary to believe we might have a heterozygous variant on the second haplotype rather than just mere sequencing error.
 
 - 4b. What asymptote does the plot seem to approach? Why is this?
 
