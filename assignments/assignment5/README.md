@@ -1,6 +1,6 @@
-## Assignment 6: RNA-seq and differential expression
-Assignment Date: Thursday, March 15, 2018  
-Due Date: Thursday, March 29, 2018 @ 11:59pm  
+## Assignment 5: RNA-seq and differential expression
+Assignment Date: Monday, March 4, 2019  
+Due Date: Monday, March 11, 2019 @ 11:59pm  
 
 ### Assignment Overview
 
