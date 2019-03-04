@@ -1,6 +1,6 @@
 ## Assignment 4: Read mapping and variant calling
-Assignment Date: Monday, Feb. 25, 2018  
-Due Date: Monday, March 4, 2018 @ 11:59pm  
+Assignment Date: Monday, Feb. 25, 2019  
+Due Date: Monday, March 4, 2019 @ 11:59pm  
 
 ## Assignment Overview
 
