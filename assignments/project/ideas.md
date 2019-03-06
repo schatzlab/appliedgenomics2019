@@ -50,6 +50,9 @@ If any of these are not available, your project will not be successful, especial
 10. Optimize an assembler and/or SV caller to combine Nanopore ultralong reads along with PacBio HiFi reads:
 [HiFi reads](https://www.biorxiv.org/content/10.1101/519025v2)
 
+11. Evaluate the impact of "edge-wander" in dynammic programming of long reads:
+[Edge Wander](https://europepmc.org/abstract/med/9773345)
+
 
 ## Functional Genomics
 
