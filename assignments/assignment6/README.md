@@ -1,6 +1,6 @@
 ## Assignment 6: Functional Annotations
-Assignment Date: Monday, March 4, 2019  
-Due Date: Monday, March 11, 2019 @ 11:59pm  
+Assignment Date: Monday, March 25, 2019  
+Due Date: Monday, April 1, 2019 @ 11:59pm  
 
 ### Assignment Overview
 
