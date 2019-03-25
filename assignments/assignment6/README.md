@@ -44,14 +44,15 @@ Download the annotation of regulatory variants from here:<br>
 Consider this HMM describing genetic (G) and intergenic (I) sequences in a bacteria:<br>
 ![BacteriaHMM](BacteriaHMM.png)
 
-- Question 3a. Compute the probability that this HMM emitted the sequence using the forward algorithm: `CAACATTGTCGCCATTGCTCAGGGATCTTCTGAACGCTCAATCTCTGTCGTGGTAAATAACGATGATGCG`. Be sure to show the entire trellis for the calculation.
+- Question 3a. Compute the probability that this HMM emitted the sequence using the forward algorithm: `CAACATTGTCGCCATTGCTCAGGGATCTTCTGAACGCTC`.<br>
+You may assume the sequence begins and ends in the intergenic state. Be sure to show the entire trellis for the calculation.
 
-- Question 3b. Using the Viterbi algorithm, what is the most like parse of this sequence into genetic and intergenic sequences? Be sure to show the entire trellis
+- Question 3b. Using the Viterbi algorithm, what is the most like parse of this sequence into genetic and intergenic states? Be sure to show the entire trellis including the bactracking
 
 - Question 3c. Describe in a few sentences how you could modify the HMM to evalute the forward and reverse strands at the same time.
 
-- Question 3d. Describe in a few sentences how you could modify the HMM to also consider a third state for "promotor". Other than nucleotide sequence, what other types of data might you want to
-  include?
+- Question 3d. Describe in a few sentences how you could modify the HMM to also consider a third state for "promotor". 
+Other than nucleotide sequence, what other types of data might you want to include?
 
 ### Packaging
 
