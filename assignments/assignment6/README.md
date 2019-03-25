@@ -42,7 +42,7 @@ Download the annotation of regulatory variants from here:<br>
 #### Question 3. Understanding HMMs [20 pts]
 
 Consider this HMM describing genetic (G) and intergenic (I) sequences in a bacteria:<br>
-![BacteriaHMM](BacteriaHMM.png)
+![BacterialHMM](BacterialHMM.png)
 
 - Question 3a. Compute the probability that this HMM emitted the sequence using the forward algorithm: `CAACATTGTCGCCATTGCTCAGGGATCTTCTGAACGCTC`.<br>
 You may assume the sequence begins and ends in the intergenic state. Be sure to show the entire trellis for the calculation.
