@@ -20,6 +20,8 @@ Download the de novo variant positions from here (Supplementary Table S4):<br>
 Download the annotation of regulatory variants from here:<br>
 [ftp://ftp.ensembl.org/pub/release-87/regulation/homo_sapiens/homo_sapiens.GRCh38.Regulatory_Build.regulatory_features.20161111.gff.gz](ftp://ftp.ensembl.org/pub/release-87/regulation/homo_sapiens/homo_sapiens.GRCh38.Regulatory_Build.regulatory_features.20161111.gff.gz)
 
+**UPDATE** The variants are reported using version 37 of the reference genome, but the annotation is for very 38. Fortunately, you can 'lift-over' the variants to the coordinates on the new reference genome using several avaible tools. I recommmend the [USCS liftover tool](https://genome.ucsc.edu/cgi-bin/hgLiftOver) that can do this in batch by converting the variants into BED format. Note, some variants may not successfully lift over, especially if they become repetitive and/or missing in the new reference, so please make a note of how many variants fail liftover.
+
 - Question 1a. How many variants are in protein coding genes? [Hint: convert xlsx to BED, then `bedtools`]
 
 - Question 1b. How many variants are in *any* annotated regulatory regions? [Hint: `bedtools`]
