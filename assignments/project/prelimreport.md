@@ -1,6 +1,6 @@
 ## Preliminary Project Report
 Assignment Date: April 8, 2019 <br>
-Due Date: Monday, April 15, 2017 @ 11:59pm <br>
+Due Date: Monday, April 15, 2019 @ 11:59pm <br>
 
 Each team should submit a PDF of your preliminary project proposal (2 to 3 pages) to GradeScope by 11:59pm on Monday April 15.
 
