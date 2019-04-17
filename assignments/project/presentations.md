@@ -10,12 +10,12 @@ Day     | Time      | Team Name                | Students           �
 We 4/24 | 1:30-1:48 | Crank                    | Aidan Crank                              | Rapid Variant Detection of ACMG59 Pathogeneic Variants
 We 4/24 | 1:48-2:06 | A Team Called Genetics   | Markus Sommer, Alaina Shumate            | Predicting Splicing from Primary Sequence with Gradient Boosted Regression Trees
 We 4/24 | 2:06-2:24 | GenomeScopeLR            | Gaurav Sharma                            | Estimating genome properties from error-prone long read sequencing data
---------|-----------|--------------------------|------------------------------------------|---------------------------------------------------------------------
+ | | | |
 Mo 4/29 | 1:30-1:48 | Team HJL                 | Heather Han, Zichen Liu, Adrian Johnston | Zeros and Ones to ATGC's
 Mo 4/29 | 1:48-2:06 | Team Pineapple Express   | Abel Corver, Jeremiah Miller             | Reducing genome assembly expansion in highly-heterozygous species
 Mo 4/29 | 2:06-2:24 | SAM's Biggest Fans       | Nae-Chyun Chen, Arun Das                 | Improving HLA genotyping efficiency by sensitive read selection
 Mo 4/29 | 2:24-2:42 | Team Nonsense            | Joe Chapman                              | Meta-analysis and prediction of RNA structures susceptible to decay
---------|-----------|--------------------------|------------------------------------------|---------------------------------------------------------------------
+ | | | |
 We 5/1  | 1:30-1:48 | Team RemChao             | Luchao Qi, Remy Schwab                   | Analysis of poly(A) tail length via direct RNA-seq
 We 5/1  | 1:48-2:06 | Gene                     | Jin Woo Oh                               | K-mer based representation of gene regulatory vocabularies
 We 5/1  | 2:06-2:24 | Plant Evo-devo           | Nelmari Ruiz Otero                       | Evolution of functional genomics during plant development
