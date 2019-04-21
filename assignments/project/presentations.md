@@ -7,9 +7,8 @@ Presentations will be a total of 18 minutes: 14 minutes for the presentation, fo
 
 Day     | Time      | Team Name                | Students                                 | Title 
 --------|-----------|--------------------------|------------------------------------------|---------------------------------------------------------------------
-We 4/24 | 1:30-1:48 | Crank                    | Aidan Crank                              | Rapid Variant Detection of ACMG59 Pathogeneic Variants
-We 4/24 | 1:48-2:06 | A Team Called Genetics   | Markus Sommer, Alaina Shumate            | Predicting Splicing from Primary Sequence with Gradient Boosted Regression Trees
-We 4/24 | 2:06-2:24 | GenomeScopeLR            | Gaurav Sharma                            | Estimating genome properties from error-prone long read sequencing data
+We 4/24 | 1:30-1:48 | A Team Called Genetics   | Markus Sommer, Alaina Shumate            | Predicting Splicing from Primary Sequence with Gradient Boosted Regression Trees
+We 4/24 | 1:48-2:06 | GenomeScopeLR            | Gaurav Sharma                            | Estimating genome properties from error-prone long read sequencing data
  | | | |
 Mo 4/29 | 1:30-1:48 | Team HJL                 | Heather Han, Zichen Liu, Adrian Johnston | Zeros and Ones to ATGC's
 Mo 4/29 | 1:48-2:06 | Team Pineapple Express   | Abel Corver, Jeremiah Miller             | Reducing genome assembly expansion in highly-heterozygous species
@@ -18,7 +17,7 @@ Mo 4/29 | 2:24-2:42 | Team Nonsense            | Joe Chapman                    
  | | | |
 We 5/1  | 1:30-1:48 | Team RemChao             | Luchao Qi, Remy Schwab                   | Analysis of poly(A) tail length via direct RNA-seq
 We 5/1  | 1:48-2:06 | Gene                     | Jin Woo Oh                               | K-mer based representation of gene regulatory vocabularies
-We 5/1  | 2:06-2:24 | Plant Evo-devo           | Nelmari Ruiz Otero                       | Evolution of functional genomics during plant development
+We 5/1  | 2:06-2:24 | Crank                    | Aidan Crank                              | Rapid Variant Detection of ACMG59 Pathogeneic Variants
 We 5/1  | 2:24-2:42 | Micro-Inversion          | Joshan Bajaj, Anant Bhargava, Usman Enam | Detecting Micro-Inversions using Dynamic Programming
 
     
